@@ -1,0 +1,298 @@
+00000000000i[     ] Bochs x86 Emulator 2.6
+00000000000i[     ]   Built from SVN snapshot on September 2nd, 2012
+00000000000i[     ] Compiled on Nov  8 2012 at 10:11:58
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ] IPS is set to 1000000
+00000000000i[     ] CPU configuration
+00000000000i[     ]   level: 6
+00000000000i[     ]   SMP support: no
+00000000000i[     ]   APIC support: xapic
+00000000000i[     ]   FPU support: yes
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   SEP support: yes
+00000000000i[     ]   SSE support: sse2
+00000000000i[     ]   XSAVE support: no 
+00000000000i[     ]   AES support: no
+00000000000i[     ]   MOVBE support: no
+00000000000i[     ]   ADX support: no
+00000000000i[     ]   x86-64 support: no
+00000000000i[     ]   MWAIT support: yes
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   RepeatSpeedups support: no
+00000000000i[     ]   Fast function calls: no
+00000000000i[     ]   Handlers Chaining speedups: no
+00000000000i[     ] Devices configuration
+00000000000i[     ]   NE2000 support: yes
+00000000000i[     ]   PCI support: no, enabled=no
+00000000000i[     ]   SB16 support: no
+00000000000i[     ]   USB support: no
+00000000000i[     ]   VGA extension support: vbe 
+00000000000i[MEM0 ] allocated memory at 0xb41ef008. after alignment, vector=0xb41f0000
+00000000000i[MEM0 ] 32,00MB
+00000000000i[MEM0 ] mem block size = 0x00100000, blocks=32
+00000000000i[MEM0 ] rom at 0xffff0000/65536 ('/usr/local/share/bochs/BIOS-bochs-legacy')
+00000000000i[     ] init_dev of 'cmos' plugin device by virtual method
+00000000000i[CMOS ] Using local time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Thu Feb  7 12:52:11 2013 (time0=1360234331)
+00000000000i[     ] init_dev of 'dma' plugin device by virtual method
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[     ] init_dev of 'pic' plugin device by virtual method
+00000000000i[     ] init_dev of 'pit' plugin device by virtual method
+00000000000i[     ] init_dev of 'floppy' plugin device by virtual method
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[FDD  ] fd0: '../../installation_files/kernels.img' ro=0, h=2,t=80,spt=18
+00000000000i[FDD  ] fd1: '../../installation_files/amoeba.0.img' ro=0, h=2,t=80,spt=18
+00000000000i[     ] init_dev of 'vga' plugin device by virtual method
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000000a0000 - 0x00000000000bffff
+00000000000i[VGA  ] interval=200000
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000e0000000 - 0x00000000e0ffffff
+00000000000i[BXVGA] VBE Bochs Display Extension Enabled
+00000000000i[KMAP ] Loading keymap from '/usr/local/share/bochs/keymaps/sdl-pc-us.map'
+00000000000i[KMAP ] Loaded 149 symbols
+00000000000i[MEM0 ] rom at 0xc0000/32768 ('/usr/local/share/bochs/VGABIOS-elpin-2.40')
+00000000000i[     ] init_dev of 'ioapic' plugin device by virtual method
+00000000000i[IOAP ] initializing I/O APIC
+00000000000i[MEM0 ] Register memory access handlers: 0x00000000fec00000 - 0x00000000fec00fff
+00000000000i[     ] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[     ] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] Using boot sequence floppy, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[     ] init_dev of 'unmapped' plugin device by virtual method
+00000000000i[     ] init_dev of 'biosdev' plugin device by virtual method
+00000000000i[     ] init_dev of 'speaker' plugin device by virtual method
+00000000000i[     ] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[     ] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[     ] init_dev of 'ne2k' plugin device by virtual method
+00000000000i[NE2K ] NE2000 NIC initialized port 0x280/32 irq 3 mac b0:c4:31:00:00:00
+00000000000i[NE2K ] eth_linux: fp.len=8 fp.filter=aa2a134
+00000000000i[NE2K ] linux network driver initialized: using interface lo
+00000000000i[     ] register state of 'cmos' plugin device by virtual method
+00000000000i[     ] register state of 'dma' plugin device by virtual method
+00000000000i[     ] register state of 'pic' plugin device by virtual method
+00000000000i[     ] register state of 'pit' plugin device by virtual method
+00000000000i[     ] register state of 'floppy' plugin device by virtual method
+00000000000i[     ] register state of 'vga' plugin device by virtual method
+00000000000i[     ] register state of 'unmapped' plugin device by virtual method
+00000000000i[     ] register state of 'biosdev' plugin device by virtual method
+00000000000i[     ] register state of 'speaker' plugin device by virtual method
+00000000000i[     ] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] register state of 'parallel' plugin device by virtual method
+00000000000i[     ] register state of 'serial' plugin device by virtual method
+00000000000i[     ] register state of 'ne2k' plugin device by virtual method
+00000000000i[     ] register state of 'ioapic' plugin device by virtual method
+00000000000i[     ] register state of 'keyboard' plugin device by virtual method
+00000000000i[     ] register state of 'harddrv' plugin device by virtual method
+00000000000i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[CPU0 ] cpu hardware reset
+00000000000i[APIC0] allocate APIC id=0 (MMIO enabled) to 0x00000000fee00000
+00000000000i[CPU0 ] CPUID[0x00000000]: 00000002 756e6547 6c65746e 49656e69
+00000000000i[CPU0 ] CPUID[0x00000001]: 00000633 00010800 00000008 1fcbfbff
+00000000000i[CPU0 ] CPUID[0x00000002]: 00410601 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000000]: 80000008 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000001]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000002]: 20202020 20202020 20202020 6e492020
+00000000000i[CPU0 ] CPUID[0x80000003]: 286c6574 50202952 69746e65 52286d75
+00000000000i[CPU0 ] CPUID[0x80000004]: 20342029 20555043 20202020 00202020
+00000000000i[CPU0 ] CPUID[0x80000005]: 01ff01ff 01ff01ff 40020140 40020140
+00000000000i[CPU0 ] CPUID[0x80000006]: 00000000 42004200 02008140 00000000
+00000000000i[CPU0 ] CPUID[0x80000007]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000008]: 00002028 00000000 00000000 00000000
+00000000000i[     ] reset of 'cmos' plugin device by virtual method
+00000000000i[     ] reset of 'dma' plugin device by virtual method
+00000000000i[     ] reset of 'pic' plugin device by virtual method
+00000000000i[     ] reset of 'pit' plugin device by virtual method
+00000000000i[     ] reset of 'floppy' plugin device by virtual method
+00000000000i[     ] reset of 'vga' plugin device by virtual method
+00000000000i[     ] reset of 'ioapic' plugin device by virtual method
+00000000000i[     ] reset of 'keyboard' plugin device by virtual method
+00000000000i[     ] reset of 'harddrv' plugin device by virtual method
+00000000000i[     ] reset of 'unmapped' plugin device by virtual method
+00000000000i[     ] reset of 'biosdev' plugin device by virtual method
+00000000000i[     ] reset of 'speaker' plugin device by virtual method
+00000000000i[SPEAK] Using /dev/console for output
+00000000000i[     ] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] reset of 'parallel' plugin device by virtual method
+00000000000i[     ] reset of 'serial' plugin device by virtual method
+00000000000i[     ] reset of 'ne2k' plugin device by virtual method
+00000000025i[MEM0 ] allocate_block: block=0x0 used 0x1 of 0x20
+00000004661i[BIOS ] $Revision: 11318 $ $Date: 2012-08-06 19:59:54 +0200 (Mo, 06. Aug 2012) $
+00000317820i[KBD  ] reset-disable command received
+00003537000e[NE2K ] device not ready to receive data
+00003538000e[NE2K ] device not ready to receive data
+00003600000e[NE2K ] device not ready to receive data
+00003601000e[NE2K ] device not ready to receive data
+00003626000e[NE2K ] device not ready to receive data
+00003627000e[NE2K ] device not ready to receive data
+00003714000e[NE2K ] device not ready to receive data
+00003715000e[NE2K ] device not ready to receive data
+00003749000e[NE2K ] device not ready to receive data
+00003750000e[NE2K ] device not ready to receive data
+00003800000e[NE2K ] device not ready to receive data
+00003801000e[NE2K ] device not ready to receive data
+00004000000e[NE2K ] device not ready to receive data
+00004001000e[NE2K ] device not ready to receive data
+00004412000e[NE2K ] device not ready to receive data
+00004413000e[NE2K ] device not ready to receive data
+00006400000e[NE2K ] device not ready to receive data
+00006401000e[NE2K ] device not ready to receive data
+00007526589i[BIOS ] Booting from 0000:7c00
+00007528000e[NE2K ] device not ready to receive data
+00007529000e[NE2K ] device not ready to receive data
+00010200000e[NE2K ] device not ready to receive data
+00010201000e[NE2K ] device not ready to receive data
+00010249000e[NE2K ] device not ready to receive data
+00010250000e[NE2K ] device not ready to receive data
+00010375000e[NE2K ] device not ready to receive data
+00010376000e[NE2K ] device not ready to receive data
+00010400000e[NE2K ] device not ready to receive data
+00010401000e[NE2K ] device not ready to receive data
+00010492000e[NE2K ] device not ready to receive data
+00010493000e[NE2K ] device not ready to receive data
+00010600000e[NE2K ] device not ready to receive data
+00010601000e[NE2K ] device not ready to receive data
+00010800000e[NE2K ] device not ready to receive data
+00010801000e[NE2K ] device not ready to receive data
+00011254000e[NE2K ] device not ready to receive data
+00011255000e[NE2K ] device not ready to receive data
+00012200000e[NE2K ] device not ready to receive data
+00012201000e[NE2K ] device not ready to receive data
+00013800000e[NE2K ] device not ready to receive data
+00013801000e[NE2K ] device not ready to receive data
+00017000000e[NE2K ] device not ready to receive data
+00017001000e[NE2K ] device not ready to receive data
+00017069000e[NE2K ] device not ready to receive data
+00017070000e[NE2K ] device not ready to receive data
+00017119000e[NE2K ] device not ready to receive data
+00017120000e[NE2K ] device not ready to receive data
+00017200000e[NE2K ] device not ready to receive data
+00017201000e[NE2K ] device not ready to receive data
+00017202000e[NE2K ] device not ready to receive data
+00017203000e[NE2K ] device not ready to receive data
+00017294000e[NE2K ] device not ready to receive data
+00017295000e[NE2K ] device not ready to receive data
+00017424000e[NE2K ] device not ready to receive data
+00017425000e[NE2K ] device not ready to receive data
+00017800000e[NE2K ] device not ready to receive data
+00017801000e[NE2K ] device not ready to receive data
+00018600000e[NE2K ] device not ready to receive data
+00018601000e[NE2K ] device not ready to receive data
+00020312000e[NE2K ] device not ready to receive data
+00020313000e[NE2K ] device not ready to receive data
+00023178000e[NE2K ] device not ready to receive data
+00023179000e[NE2K ] device not ready to receive data
+00023200000e[NE2K ] device not ready to receive data
+00023201000e[NE2K ] device not ready to receive data
+00023275000e[NE2K ] device not ready to receive data
+00023276000e[NE2K ] device not ready to receive data
+00023324000e[NE2K ] device not ready to receive data
+00023325000e[NE2K ] device not ready to receive data
+00023400000e[NE2K ] device not ready to receive data
+00023401000e[NE2K ] device not ready to receive data
+00023562000e[NE2K ] device not ready to receive data
+00023563000e[NE2K ] device not ready to receive data
+00023693000e[NE2K ] device not ready to receive data
+00023694000e[NE2K ] device not ready to receive data
+00024140000e[NE2K ] device not ready to receive data
+00024141000e[NE2K ] device not ready to receive data
+00024800000e[NE2K ] device not ready to receive data
+00024801000e[NE2K ] device not ready to receive data
+00026242000e[NE2K ] device not ready to receive data
+00026243000e[NE2K ] device not ready to receive data
+00033408000e[NE2K ] device not ready to receive data
+00033409000e[NE2K ] device not ready to receive data
+00033460000e[NE2K ] device not ready to receive data
+00033461000e[NE2K ] device not ready to receive data
+00033546000e[NE2K ] device not ready to receive data
+00033547000e[NE2K ] device not ready to receive data
+00033593000e[NE2K ] device not ready to receive data
+00033594000e[NE2K ] device not ready to receive data
+00033600000e[NE2K ] device not ready to receive data
+00033601000e[NE2K ] device not ready to receive data
+00033689000e[NE2K ] device not ready to receive data
+00033690000e[NE2K ] device not ready to receive data
+00033867000e[NE2K ] device not ready to receive data
+00033868000e[NE2K ] device not ready to receive data
+00034200000e[NE2K ] device not ready to receive data
+00034201000e[NE2K ] device not ready to receive data
+00034903000e[NE2K ] device not ready to receive data
+00034904000e[NE2K ] device not ready to receive data
+00036226000e[NE2K ] device not ready to receive data
+00036227000e[NE2K ] device not ready to receive data
+00039330000e[NE2K ] device not ready to receive data
+00039331000e[NE2K ] device not ready to receive data
+00039400000e[NE2K ] device not ready to receive data
+00039401000e[NE2K ] device not ready to receive data
+00039402000e[NE2K ] device not ready to receive data
+00039403000e[NE2K ] device not ready to receive data
+00039479000e[NE2K ] device not ready to receive data
+00039480000e[NE2K ] device not ready to receive data
+00039526000e[NE2K ] device not ready to receive data
+00039527000e[NE2K ] device not ready to receive data
+00039600000e[NE2K ] device not ready to receive data
+00039601000e[NE2K ] device not ready to receive data
+00040000000e[NE2K ] device not ready to receive data
+00040001000e[NE2K ] device not ready to receive data
+00040330000e[NE2K ] device not ready to receive data
+00040331000e[NE2K ] device not ready to receive data
+00041047000e[NE2K ] device not ready to receive data
+00041048000e[NE2K ] device not ready to receive data
+00042187000e[NE2K ] device not ready to receive data
+00042188000e[NE2K ] device not ready to receive data
+00044885000e[NE2K ] device not ready to receive data
+00044886000e[NE2K ] device not ready to receive data
+00044946000e[NE2K ] device not ready to receive data
+00044947000e[NE2K ] device not ready to receive data
+00045000000e[NE2K ] device not ready to receive data
+00045001000e[NE2K ] device not ready to receive data
+00045002000e[NE2K ] device not ready to receive data
+00045003000e[NE2K ] device not ready to receive data
+00045113000e[NE2K ] device not ready to receive data
+00045114000e[NE2K ] device not ready to receive data
+00045200000e[NE2K ] device not ready to receive data
+00045201000e[NE2K ] device not ready to receive data
+00045400000e[NE2K ] device not ready to receive data
+00045401000e[NE2K ] device not ready to receive data
+00045824000e[NE2K ] device not ready to receive data
+00045825000e[NE2K ] device not ready to receive data
+00046751000e[NE2K ] device not ready to receive data
+00046752000e[NE2K ] device not ready to receive data
+00048358643e[DEV  ] write to port 0x03f2 with len 2 ignored
+00048400000e[NE2K ] device not ready to receive data
+00048401000e[NE2K ] device not ready to receive data
+00049047468i[MEM0 ] allocate_block: block=0x1 used 0x2 of 0x20
+00049225457i[MEM0 ] allocate_block: block=0x1f used 0x3 of 0x20
+00049947584i[NE2K ] reserved read - page 0, 0xa
+00049947600i[NE2K ] reserved read - page 0, 0xb
+00049967893i[NE2K ] RCR write, monitor bit set!
+00050011264i[NE2K ] RCR write, monitor bit set!
+00050011453i[NE2K ] Physical address set to b0:c4:31:00:00:00
+00051417556i[FDD  ] controller reset in software
+00451800000p[SDL  ] >>PANIC<< User requested shutdown.
+00451800000i[CPU0 ] CPU is in protected mode (active)
+00451800000i[CPU0 ] CS.mode = 32 bit
+00451800000i[CPU0 ] SS.mode = 32 bit
+00451800000i[CPU0 ] EFER   = 0x00000000
+00451800000i[CPU0 ] | EAX=00193dec  EBX=00186854  ECX=00049a48  EDX=00000100
+00451800000i[CPU0 ] | ESP=01fd8d08  EBP=01fd8d0c  ESI=0018f63c  EDI=00000014
+00451800000i[CPU0 ] | IOPL=0 id vip vif ac vm rf nt of df IF tf sf ZF af PF cf
+00451800000i[CPU0 ] | SEG sltr(index|ti|rpl)     base    limit G D
+00451800000i[CPU0 ] |  CS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+00451800000i[CPU0 ] |  DS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+00451800000i[CPU0 ] |  SS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+00451800000i[CPU0 ] |  ES:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+00451800000i[CPU0 ] |  FS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+00451800000i[CPU0 ] |  GS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+00451800000i[CPU0 ] | EIP=00014aee (00014aee)
+00451800000i[CPU0 ] | CR0=0xe000003b CR2=0x00000000
+00451800000i[CPU0 ] | CR3=0x0008b000 CR4=0x00000000
+00451800000i[CPU0 ] 0x00014aee>> jz .+153 (0x00014b8d) : 0F8499000000
+00451800000i[CMOS ] Last time is 1360234782 (Thu Feb  7 12:59:42 2013)
+00451800000i[     ] restoring default signal behavior
+00451800000i[CTRL ] quit_sim called with exit code 1
