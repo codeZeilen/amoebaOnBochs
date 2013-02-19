@@ -42,7 +42,7 @@ Package structure
 * documentation: Contains the official manuals for an Amoeba installation.
 * installation_files: Contains prepared .img files which e.g. include kernals or ramdisks needed to boot an Amoeba system.
 * machines: Includes a subfolder for each machine type. If you want to create another pool or workstation you can simply copy the folder and adjust the bochsrc.txt. In the bochsrc file you have to pick another MAC address. If you want to use the machine in your Amoeba system you have to add it first. You can find an extensive guide how to do that in the SystemAdministratorGuide.pdf.
-* source: The complete Amoeba source code to browse and understand the Amoeba system.
+* source: The complete Amoeba source code to browse and understand the Amoeba system. Currently this is not included in the package but you can find the source on: ftp://ftp.cs.vu.nl/pub/amoeba/amoeba5.3/src/.
 
 Getting files on the main machine
 ---------------------------------
