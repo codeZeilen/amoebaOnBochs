@@ -2,7 +2,7 @@
 # bochsrc.txt file for Amoeba image.
 ###############################################################
 
-cpu: count=1, ips=1000000
+cpu: count=1, ips=8000000
 
 # how much memory the emulated machine will have
 megs: 128
@@ -19,20 +19,12 @@ floppyb: 1_44=../../installation_files/amoeba.0.img, status=inserted
 ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
 ata0-master: type=disk, path="mainhd.img", mode=flat, cylinders=1015, heads=16, spt=63
 
-# deprecated!
-#ata1: enabled=1, ioaddr1=0x170, ioaddr2=0x370, irq=15
-#ata1-master: type=disk, path="../../installation_files/sources.img", mode=flat, cylinders=60, heads=16, spt=63
-
 # network - has adjusted ioaddr, irq and ethdev!
 ne2k: ioaddr=0x280, irq=3, mac=b0:c4:20:00:00:00, ethmod=linux, ethdev=lo
 
 # choose the boot disk.
 boot: floppy
 boot: disk
-
-# default config interface is textconfig.
-#config_interface: textconfig
-#config_interface: wx
 
 display_library: vncsrv, options="timeout=60"
 
