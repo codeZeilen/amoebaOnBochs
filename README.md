@@ -34,7 +34,12 @@ You can now connect to the Bochs machine running Amoeba using a VNC viewer on `l
 4. run "make && make install" Note that "make install" may need super privilege.
 
 ## Starting Machines Manually
-You have to start bochs as the super use to make the ne2k driver work.
+You have to start bochs as the super user to make the ne2k driver work. You also have to set the `AMOEBA_FILES` env variable to the installation_files directory, so, given you are in one of the machine folders, you can start the machine using:
+
+```
+sudo env "AMOEBA_FILES=../../installation_files/" bochs -q
+```
+
 Credentials for all machines are: user: "Daemon" pwd: "".
 
 ### main_machine
