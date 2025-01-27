@@ -39,6 +39,8 @@ COPY --from=build /src/bochs/bios/* /usr/share/bochs/bios/
 # To ensure Bochs can find its BIOS files
 ENV BXSHARE=/usr/share/bochs/bios
 
+# Where to find the floppy images
+ENV AMOEBA_FILES=/installation_files
 
 # /machine needs to be mounted from the host
 WORKDIR /machine

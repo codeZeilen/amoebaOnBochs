@@ -12,8 +12,8 @@ romimage: file=$BXSHARE/BIOS-bochs-legacy
 vgaromimage: file=$BXSHARE/VGABIOS-elpin-2.40
 
 # floppy images
-floppya: 1_44=../../installation_files/kernels.img, status=inserted
-floppyb: 1_44=../../installation_files/amoeba.0.img, status=inserted
+floppya: 1_44=$AMOEBA_FILES//kernels.img, status=inserted
+floppyb: 1_44=$AMOEBA_FILES//amoeba.0.img, status=inserted
 
 # hard disk
 ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14

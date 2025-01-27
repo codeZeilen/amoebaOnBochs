@@ -15,7 +15,7 @@ To build the Amoeba image locally, execute the following in the root folder of t
 
 Assuming you build the image locally, you can run the image by executing the following:
 
-`sudo docker run --rm --volume ./machines/main_machine:/machine --publish 5900:5900 amoeba`
+`sudo docker run --rm --volume ./machines/main_machine:/machine --volume ./installation_files:/installation_files --publish 5900:5900 amoeba`
 
 You can now connect to the Bochs machine running Amoeba using a VNC viewer on `localhost:5900`.
 

@@ -12,8 +12,8 @@ romimage: file=$BXSHARE/BIOS-bochs-legacy
 vgaromimage: file=$BXSHARE/VGABIOS-elpin-2.40
 
 # floppy images
-floppya: 1_44=../../installation_files/kernels.img, status=inserted
-floppyb: 1_44=../../installation_files/amoeba.0.img, status=inserted
+floppya: 1_44=$AMOEBA_FILES/kernels.img, status=inserted
+floppyb: 1_44=$AMOEBA_FILES/amoeba.0.img, status=inserted
 
 # hard disk
 ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
@@ -21,7 +21,7 @@ ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
 
 # deprecated!
 #ata1: enabled=1, ioaddr1=0x170, ioaddr2=0x370, irq=15
-#ata1-master: type=disk, path="../../installation_files/sources.img", mode=flat, cylinders=60, heads=16, spt=63
+#ata1-master: type=disk, path="$AMOEBA_FILES/sources.img", mode=flat, cylinders=60, heads=16, spt=63
 
 # network - has adjusted ioaddr, irq and ethdev!
 ne2k: ioaddr=0x280, irq=3, mac=b0:c4:21:00:00:00, ethmod=linux, ethdev=lo
