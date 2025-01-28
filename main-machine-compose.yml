@@ -1,0 +1,8 @@
+services:
+  machine:
+    image: amoeba
+    volumes:
+      - ./machines/main_machine:/machine
+      - ./installation_files:/installation_files
+    ports:
+      - "5900:5900"
